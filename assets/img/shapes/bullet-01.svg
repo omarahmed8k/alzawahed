@@ -1,0 +1,12 @@
+<svg id="bullet-01" xmlns="http://www.w3.org/2000/svg" width="64" height="12.418" viewBox="0 0 64 12.418">
+  <g id="Group_8" data-name="Group 8">
+    <g id="Group_7" data-name="Group 7">
+      <path id="Path_132" data-name="Path 132" d="M67.119,43.529c.432-1.811,1.235-3.032,2.158-3.032V52.608c-.923,0-1.726-1.22-2.158-3.032v3.035H44.843V50.485h15.4a2.012,2.012,0,1,0,0-4.024H44.842v-.683H60.817a.455.455,0,1,0,0-.911H44.843V40.312H67.119Z" transform="translate(-34.097 -40.194)" fill="#23702a"/>
+      <path id="Path_133" data-name="Path 133" d="M94.407,40.128V52.312c-5.139,0-9.3-2.727-9.3-6.092S89.268,40.128,94.407,40.128Z" transform="translate(-85.104 -40.128)" fill="#23702a"/>
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="21.637" height="0.911" transform="translate(41.679 0.346)" fill="#23702a"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="15.716" height="0.911" transform="translate(39.173 4.446)" fill="#23702a"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="10.364" height="0.911" transform="translate(43.728 6.382)" fill="#23702a"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="19.362" height="0.91" transform="translate(44.638 9.116)" fill="#23702a"/>
+    </g>
+  </g>
+</svg>
