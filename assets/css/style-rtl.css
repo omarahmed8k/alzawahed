@@ -297,23 +297,43 @@
   direction: rtl;
 }
 
-.about-text .about-text-left{
+.about-text .about-text-left {
   text-align: right;
   direction: rtl;
 }
 
-.about-text .about-heighlight{
+.about-text .about-heighlight {
   padding-left: 0;
   padding-right: 20px;
 }
 
-.about-text .about-heighlight::before{
+.about-text .about-heighlight::before {
   left: unset;
   right: 0px;
 }
 
-.history-slider-one .history-details .year-wrap i{
+.history-slider-one .history-details .year-wrap i {
   margin-right: 20px;
   margin-left: 0px;
   transform: rotate(180deg);
+}
+
+.service-single-item .details .read-btn {
+  right: unset;
+  left: 18px;
+  transform: rotate(180deg);
+}
+
+.theme-heading-title .subtitle.shape .icon-right {
+  margin-right: 20px;
+  margin-left: 0px;
+  transform: rotate(180deg);
+}
+
+.theme-heading-title .subtitle.shape .icon-right i {
+  font-size: 16px;
+}
+
+.why-choose-two {
+  direction: rtl;
 }
