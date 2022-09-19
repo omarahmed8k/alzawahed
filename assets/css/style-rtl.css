@@ -263,7 +263,57 @@
   margin-left: 10px;
 }
 
-.breadcrumb-area .breadcrumb-inner .breadcrumb-menu .bullet-04{
+.breadcrumb-area .breadcrumb-inner .breadcrumb-menu .bullet-04,
+.breadcrumb-area .breadcrumb-inner .breadcrumb-menu .bullet-03 {
   margin-right: 0px;
   margin-left: 10px;
+}
+
+.breadcrumb-area .breadcrumb-inner .breadcrumb-menu .bullet-03 {
+  margin-right: 10px;
+}
+
+.about .navbar-area {
+  background-color: #03051999 !important;
+}
+
+.contact .navbar-area {
+  background-color: #03051999 !important;
+}
+
+.intro-icon-box-3 .icon-wrap {
+  left: 35px;
+  right: unset;
+}
+
+.content {
+  text-align: right;
+  direction: rtl;
+}
+
+.single-input-inner input,
+.single-input-inner.style-border textarea {
+  text-align: right;
+  direction: rtl;
+}
+
+.about-text .about-text-left{
+  text-align: right;
+  direction: rtl;
+}
+
+.about-text .about-heighlight{
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+.about-text .about-heighlight::before{
+  left: unset;
+  right: 0px;
+}
+
+.history-slider-one .history-details .year-wrap i{
+  margin-right: 20px;
+  margin-left: 0px;
+  transform: rotate(180deg);
 }

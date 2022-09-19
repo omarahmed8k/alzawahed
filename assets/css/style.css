@@ -3422,6 +3422,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   display: inline-block;
   cursor: pointer;
   font-weight: 500;
+  background-color: #23702a50 ;
 }
 .btn-wrap .btn-panthar i {
   margin-right: 15px;
@@ -4107,6 +4108,8 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 .contact-map {
   background-image: url("../img/section-img/map/map-bg.png");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   height: 100%;
   width: 100%;
 }
@@ -5837,6 +5840,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   z-index: 0;
   margin-bottom: 0;
   color: var(--main-color-one);
+  justify-content: center;
 }
 .theme-heading-title .subtitle span {
   display: contents;
@@ -7971,6 +7975,8 @@ li.mail-footer a {
 }
 .about-text .about-text-left p {
   text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 .about-text .about-text-left .about-list {
   padding-top: 20px;
@@ -8027,10 +8033,16 @@ li.mail-footer a {
   position: relative;
   margin-right: 20px;
 }
+.about-text-right .thumb img:last-child{
+  transform: scale(1.15);
+}
 .about-text-right .thumb .before-text {
   position: absolute;
   left: -38px;
   bottom: -113px;
+  animation-name: why-text;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 .about-text-right .thumb .before-text-01 {
   position: absolute;
@@ -8213,7 +8225,7 @@ li.mail-footer a {
   left: -130px;
   z-index: 0;
   width: 400px;
-  bottom: 148px;
+  bottom: 20px;
 }
 .history-slider-one .thumb {
   height: 100%;
@@ -8229,11 +8241,12 @@ li.mail-footer a {
 }
 
 .history-slider-two.history-number {
-  margin-bottom: 0px;
+  margin-bottom: 35px;
+  margin-top: 50px;
 }
 
 .history-wrap {
-  margin-bottom: 120px;
+  margin-bottom: 180px;
 }
 
 .wrapper-progreess-one {
@@ -9790,7 +9803,7 @@ li.mail-footer a {
 }
 
 .test-arrow-prev.history-prev {
-  right: 70px;
+  left: 0px;
   border: 1px solid var(--main-color-one);
   background-color: transparent;
   cursor: pointer;
@@ -10674,7 +10687,8 @@ button:focus {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  padding: 110px 0;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 .breadcrumb-area .breadcrumb-inner .br-inner-title {
   color: #fff;
@@ -16432,3 +16446,4 @@ ul.blocks-gallery-grid li:before {
   font-family: var(--body-font);
   color: var(--main-color-one);
 }
+
