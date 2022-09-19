@@ -35,18 +35,80 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <!-- RTL Stylesheet -->
     <link rel="stylesheet" href="assets/css/style-rtl.css" />
-    <!-- BG Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style-video.css" />
   </head>
 
   <body>
     <div class="loader"></div>
-
+    <div class="body-overlay" id="body-overlay"></div>
     <div
       class="header-style-02 animate__animated animate__fadeInDownBig wow"
       data-wow-duration="1s"
       data-wow-delay="1.5s"
     >
+      <!-- top bar area start -->
+      <div class="topbar-area">
+        <div class="container custom-container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="topbar-inner">
+                <div class="left-content">
+                  <div class="social-icon">
+                    <ul>
+                      <li>
+                        <img src="./assets/icon/share_icon.svg" alt="" /><a
+                          target="_blank"
+                          href="https://www.facebook.com/"
+                          >فيس بوك</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          href="https://twitter.com/alzawahed_est"
+                          >تويتر</a
+                        >
+                      </li>
+                      <li>
+                        <a target="_blank" href="https://www.instagram.com/"
+                          >انستجرام</a
+                        >
+                      </li>
+                      <li>
+                        <a target="_blank" href="https://www.youtube.com/"
+                          >يوتيوب</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="right-contnet">
+                  <ul class="info-items">
+                    <li>
+                      <a
+                        target="_blank"
+                        href="https://goo.gl/maps/1VqURL5EbCYxduFM6"
+                        ><img
+                          src="./assets/icon/location_icon.svg"
+                          alt="location"
+                        />
+                        العربية السعودية - الرياض - الواحة - شارع 15
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:contact@alzawahed.com"
+                        ><img src="./assets/icon/mail_icon.svg" alt="email" />
+                        contact@alzawahed.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- top bar areda end -->
+
       <!-- main  navbar area start -->
       <nav
         class="navbar navbar-area navbar-expand-lg navigation-style-01 menu-01 navigation-before"
@@ -55,7 +117,7 @@
           <div class="responsive-menu">
             <div class="logo-wrapper">
               <a href="index.html" class="logo">
-                <img src="assets/img/logo/logo-white.svg" alt="" />
+                <img src="assets/img/logo/logo-black.svg" alt="" />
               </a>
               <a href="index.html" class="logo-white-display">
                 <img src="assets/img/logo/logo-white.svg" alt="footer logo"
@@ -78,26 +140,16 @@
                 <a href="index.html">الرئيسية</a>
               </li>
               <li>
-                <a href="about.html">من نحن</a>
+                <a href="index-rtl-bg.html">من نحن</a>
               </li>
-              <li class="menu-item-has-children">
-                <a href="service.html"> خدماتنا</a>
-                <ul class="sub-menu">
-                  <li>
-                    <a href="service.html"><span>Service</span></a>
-                  </li>
-                  <li>
-                    <a href="service-single.html"
-                      ><span>Service Single</span></a
-                    >
-                  </li>
-                </ul>
+              <li>
+                <a href="index-rtl-bg-video.html"> خدماتنا</a>
               </li>
               <li>
                 <a href="ebook.html">ملف الشركة</a>
               </li>
               <li>
-                <a href="contact.html">اتصل بنا</a>
+                <a href="index.html">اتصل بنا</a>
               </li>
             </ul>
           </div>
@@ -116,12 +168,6 @@
 
     <!-- slider area  -->
     <div class="baner-slider">
-      <video autoplay loop muted>
-        <source
-          src="./assets/img/section-img/video/test.mp4"
-          type="video/mp4"
-        />
-      </video>
       <div
         class="container banar-container animate__animated animate__fadeInUpBig wow"
         data-wow-duration="1s"
@@ -148,7 +194,7 @@
         <div class="baner-wrapper">
           <div class="baner-items">
             <div class="row align-items-center flex-reverse">
-              <div class="col-lg-12">
+              <div class="col-lg-7">
                 <div class="baner-content">
                   <h2 class="baner-title typewriter-ar"></h2>
                   <h4 class="baner-subtitle">أفضل الخدمات الأمنية</h4>
@@ -171,11 +217,19 @@
                   </div>
                 </div>
               </div>
+              <div class="col-lg-5">
+                <div class="baner-img">
+                  <img
+                    src="./assets/img/section-img/baner/banar-img-01.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
           <div class="baner-items">
             <div class="row align-items-center flex-reverse">
-              <div class="col-lg-12">
+              <div class="col-lg-7">
                 <div class="baner-content">
                   <h2 class="baner-title">تأمين الفاعليات و الاحداث الكبري</h2>
                   <h4 class="baner-subtitle">أفضل الخدمات الأمنية</h4>
@@ -202,11 +256,19 @@
                   </div>
                 </div>
               </div>
+              <div class="col-lg-5">
+                <div class="baner-img">
+                  <img
+                    src="./assets/img/section-img/baner/banar-img-02.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
           <div class="baner-items">
             <div class="row align-items-center flex-reverse">
-              <div class="col-lg-12">
+              <div class="col-lg-7">
                 <div class="baner-content">
                   <h2 class="baner-title">تأمين و مراقبة المنشآت</h2>
                   <h4 class="baner-subtitle">أفضل الخدمات الأمنية</h4>
@@ -229,11 +291,19 @@
                   </div>
                 </div>
               </div>
+              <div class="col-lg-5">
+                <div class="baner-img">
+                  <img
+                    src="./assets/img/section-img/baner/banar-img-03.png"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
           <div class="baner-items">
             <div class="row align-items-center flex-reverse">
-              <div class="col-lg-12">
+              <div class="col-lg-7">
                 <div class="baner-content">
                   <h2 class="baner-title">تأمين مواقع البناء</h2>
                   <h4 class="baner-subtitle">أفضل الخدمات الأمنية</h4>
@@ -254,6 +324,14 @@
                       <span class="bottom_right"></span>
                     </a>
                   </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="baner-img">
+                  <img
+                    src="./assets/img/section-img/baner/banar-img-04.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>

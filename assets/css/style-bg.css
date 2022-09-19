@@ -1,0 +1,48 @@
+.baner-slider {
+  height: 100vh;
+  /* background-image: url("../img/shapes/hero-shape1.png"); */
+  /* background-image: url("../img/section-img/footer/footer-bg.png"); */
+  background-image: url("../img/shapes/hero-shape-black.png");
+  background-color: var(--heading-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baner-img {
+  bottom: unset;
+}
+
+.navbar-area.navigation-style-01
+  .custom-container
+  .navbar-collapse
+  .navbar-nav
+  li
+  a {
+  color: #fff !important;
+}
+
+.navbar-area .custom-container .nav-right-content .btn-wrapp ul li,
+.navbar-area .custom-container .nav-right-content .btn-wrapp ul li a {
+  color: #fff !important;
+}
+
+.baner-subtitle,
+.baner-content p {
+  color: #fff !important;
+}
+
+.baner-content .btn-wrap a {
+  color: #fff;
+}
+
+.site-text {
+  color: #ffffff10;
+}
+
+.cross-03,
+.cross-02 {
+  animation-name: cross;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}

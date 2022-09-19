@@ -10389,7 +10389,7 @@ p.why-para {
   background-size: cover;
   width: 100%;
   height: 100%;
-  padding: 230px 0 0 0;
+  padding: 150px 0 0 0;
   position: relative;
   margin-bottom: 95px;
 }
@@ -13111,7 +13111,7 @@ label[for="wp-comment-cookies-consent"] {
 }
 .navigation-before {
   position: relative;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .navigation-before::before {
   position: absolute;
@@ -13230,7 +13230,7 @@ nav.navbar.navbar-area.navbar-expand-lg.navigation-style-01.innerpage-menu.nav-f
 }
 
 .navbar.navbar-area.navbar-expand-lg.navigation-style-01.menu-01 {
-  padding-bottom: 28px;
+  padding-bottom: 10px;
 }
 
 .navbar-area.navigation-style-01.menu-02
@@ -13306,6 +13306,10 @@ nav.navbar.navbar-area.navbar-expand-lg.navigation-style-01.innerpage-menu.nav-f
 
 nav.navbar.navbar-area.navbar-expand-lg.navigation-style-01.menu-02 {
   padding-bottom: 12px !important;
+}
+
+.navbar .logo-white-display img,.navbar .logo img {
+  height: 50px;
 }
 
 /*----------------------------
