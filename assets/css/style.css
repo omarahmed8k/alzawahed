@@ -8240,7 +8240,7 @@ li.mail-footer a {
 }
 
 .history-wrap {
-  margin-bottom: 180px;
+  margin-bottom: 100px;
 }
 
 .wrapper-progreess-one {
@@ -16455,3 +16455,12 @@ ul.blocks-gallery-grid li:before {
   color: var(--main-color-one);
 }
 
+.company-in-numbers{
+  width: 100%;
+  object-fit: contain;
+  margin-top: 200px;
+}
+
+.why-choose-two-area .company-in-numbers{
+  margin-top: 100px;
+}
