@@ -29,14 +29,34 @@
       .pauseFor(3500)
       .start();
 
-    var titleAr = document.querySelector(".typewriter-ar");
+    var typed = new Typed(".typewriter-ar", {
+      strings: [
+        "الزواهد لخدمات الحراسات الأمنية",
+        "حلول امن الشركات و الفعاليات!",
+        "حلول امن مواقع البناء!",
+      ],
+      stringsElement: null,
+      typeSpeed: 100,
+      backSpeed: 50,
+      startDelay: 2000,
+      backDelay: 2000,
+      loop: true,
+      loopCount: Infinity,
+      showCursor: true,
+      cursorChar: "|",
+      autoInsertCss: true,
+    });
+
+    var titleAr = document.querySelector(".typewriter-ar1");
     var typewriterAr = new Typewriter(titleAr, {
       loop: true,
     });
 
     typewriterAr
       .pauseFor(2500)
-      .typeString("<h1 class='baner-title'>الزواهد لخدمات الحراسات الأمنية</h1>")
+      .typeString(
+        "<h1 class='baner-title'>الزواهد لخدمات الحراسات الأمنية</h1>"
+      )
       .pauseFor(3500)
       .deleteAll()
       .typeString("<h1 class='baner-title'>حلول امن الشركات!</h1>")
