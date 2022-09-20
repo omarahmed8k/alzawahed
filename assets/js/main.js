@@ -36,16 +36,16 @@
 
     typewriterAr
       .pauseFor(2500)
-      .typeString("الزواهد لخدمات الحراسات الأمنية")
+      .typeString("<h1 class='baner-title'>الزواهد لخدمات الحراسات الأمنية</h1>")
       .pauseFor(3500)
       .deleteAll()
-      .typeString("حلول امن الشركات!")
+      .typeString("<h1 class='baner-title'>حلول امن الشركات!</h1>")
       .pauseFor(3500)
       .deleteChars(8)
-      .typeString("الفعاليات!")
+      .typeString("<h1 class='baner-title'>الفعاليات!</h1>")
       .pauseFor(3500)
       .deleteChars(10)
-      .typeString("مواقع البناء!")
+      .typeString("<h1 class='baner-title'>مواقع البناء!</h1>")
       .pauseFor(3500)
       .start();
 
