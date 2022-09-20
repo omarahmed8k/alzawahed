@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
 :root {
   --main-color-one: #23702a;
   --heading-color: #030519;
   --paragraph-color: #727777;
   --para-color-two: #484848;
-  --heading-font: "Tajawal-Regular", sans-serif;
-  --body-font: "Tajawal-Regular", sans-serif;
+  --heading-font: "Tajawal", sans-serif;
+  --body-font: "Tajawal", sans-serif;
   --animate-delay: 0.3s;
 }
 
