@@ -5834,7 +5834,6 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   z-index: 0;
   margin-bottom: 0;
   color: var(--main-color-one);
-  justify-content: center;
 }
 .theme-heading-title .subtitle span {
   display: contents;
@@ -8242,6 +8241,10 @@ li.mail-footer a {
 
 .history-wrap {
   margin-bottom: 100px;
+}
+
+.history-wrap .theme-heading-title .subtitle {
+  justify-content: center;
 }
 
 .wrapper-progreess-one {
