@@ -348,3 +348,41 @@
   background: unset;
   color: #fff;
 }
+
+.widget > h1,
+.widget > h2,
+.widget > h3,
+.widget > h4,
+.widget > h5,
+.widget > h6,
+.widget .widget-headline {
+  text-align: right;
+  direction: rtl;
+}
+
+.widget > h1::before,
+.widget > h2::before,
+.widget > h3::before,
+.widget > h4::before,
+.widget > h5::before,
+.widget > h6::before,
+.widget .widget-headline::before {
+  left: unset;
+  right: -25px;
+}
+
+.case-single-wrap .case-title,
+.blog-single-content-wrap p:not(.has-large-font-size, .wp-block-cover-text) {
+  text-align: right;
+  direction: rtl;
+}
+
+
+.process-wrap .process-headline{
+  text-align: right;
+  direction: rtl;
+}
+
+img{
+  object-fit: contain;
+}

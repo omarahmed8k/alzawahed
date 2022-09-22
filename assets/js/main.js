@@ -12,62 +12,6 @@
     /*------------------
             Type Writer
         ------------------*/
-    var title = document.querySelector(".typewriter");
-    var typewriter = new Typewriter(title, {
-      loop: true,
-    });
-
-    typewriter
-      .pauseFor(2500)
-      .typeString("Office Security")
-      .pauseFor(3500)
-      .deleteAll()
-      .typeString("The Best Business Experts!")
-      .pauseFor(3500)
-      .deleteChars(8)
-      .typeString("Solutions!")
-      .pauseFor(3500)
-      .start();
-
-    var typed = new Typed(".typewriter-ar", {
-      strings: [
-        "الزواهد لخدمات الحراسات الأمنية",
-        "حلول امن الشركات و الفعاليات!",
-        "حلول امن مواقع البناء!",
-      ],
-      stringsElement: null,
-      typeSpeed: 100,
-      backSpeed: 50,
-      startDelay: 2000,
-      backDelay: 2000,
-      loop: true,
-      loopCount: Infinity,
-      showCursor: true,
-      cursorChar: "|",
-      autoInsertCss: true,
-    });
-
-    var titleAr = document.querySelector(".typewriter-ar1");
-    var typewriterAr = new Typewriter(titleAr, {
-      loop: true,
-    });
-
-    typewriterAr
-      .pauseFor(2500)
-      .typeString(
-        "<h1 class='baner-title'>الزواهد لخدمات الحراسات الأمنية</h1>"
-      )
-      .pauseFor(3500)
-      .deleteAll()
-      .typeString("<h1 class='baner-title'>حلول امن الشركات!</h1>")
-      .pauseFor(3500)
-      .deleteChars(8)
-      .typeString("<h1 class='baner-title'>الفعاليات!</h1>")
-      .pauseFor(3500)
-      .deleteChars(10)
-      .typeString("<h1 class='baner-title'>مواقع البناء!</h1>")
-      .pauseFor(3500)
-      .start();
 
     /*-------------------------------
             Navbar Fix
@@ -759,6 +703,28 @@
       sidebarMenu.addClass("active");
       bodyOvrelay.addClass("active");
     });
+
+    try {
+      new Typed(".typewriter-ar", {
+        strings: [
+          "الزواهد لخدمات الحراسات الأمنية",
+          "حلول امن الشركات و الفعاليات!",
+          "حلول امن مواقع البناء!",
+        ],
+        stringsElement: null,
+        typeSpeed: 100,
+        backSpeed: 50,
+        startDelay: 2000,
+        backDelay: 2000,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: true,
+        cursorChar: "|",
+        autoInsertCss: true,
+      });
+    } catch (error) {
+      console.log(error);
+    }
   });
 
   //define variable for store last scrolltop

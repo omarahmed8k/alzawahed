@@ -2,7 +2,7 @@
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
 
 /* English Fonts */
 @font-face {
@@ -3416,7 +3416,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   display: inline-block;
   cursor: pointer;
   font-weight: 500;
-  background-color: #23702a50 ;
+  background-color: #23702a50;
 }
 .btn-wrap .btn-panthar i {
   margin-right: 15px;
@@ -8027,7 +8027,7 @@ li.mail-footer a {
   position: relative;
   margin-right: 20px;
 }
-.about-text-right .thumb img:last-child{
+.about-text-right .thumb img:last-child {
   transform: scale(1.15);
 }
 .about-text-right .thumb .before-text {
@@ -8064,6 +8064,10 @@ li.mail-footer a {
 }
 .about-text-right .about-features-box .content h2 span {
   color: #fff;
+}
+
+.history-slider {
+  margin-bottom: 150px;
 }
 
 .history-slider-two .history-year {
@@ -8996,6 +9000,9 @@ li.mail-footer a {
 
 .process-wrap {
   padding-top: 30px;
+}
+.process-wrap img{
+  margin-top: 50px;
 }
 .process-wrap .process-headline {
   font-size: 22px;
@@ -10180,7 +10187,6 @@ p.why-para {
     transform: translateY(-55%);
   }
 }
-
 
 .service-inner-wrapper-01 {
   display: -webkit-box;
@@ -13334,7 +13340,8 @@ nav.navbar.navbar-area.navbar-expand-lg.navigation-style-01.menu-02 {
   padding-bottom: 12px !important;
 }
 
-.navbar .logo-white-display img,.navbar .logo img {
+.navbar .logo-white-display img,
+.navbar .logo img {
   height: 50px;
 }
 
@@ -16459,12 +16466,18 @@ ul.blocks-gallery-grid li:before {
   color: var(--main-color-one);
 }
 
-.company-in-numbers{
+.company-in-numbers {
   width: 100%;
   object-fit: contain;
-  margin-top: 200px;
 }
 
-.why-choose-two-area .company-in-numbers{
+.why-choose-two-area .company-in-numbers {
   margin-top: 100px;
+}
+
+.blog-numbers img {
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 45px;
 }
