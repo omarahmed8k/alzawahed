@@ -1,17 +1,18 @@
+// loader before load
+
 (function ($) {
   "use strict";
-  setTimeout(function () {
-    $(".loader").fadeOut();
-  }, 2000);
 
+  $(window).on("load", function () {
+    $(".loader").fadeOut(100);
+  });
   $(document).ready(function () {
     /*------------------
-            loader
-        ------------------*/
-
+    loader
+    ------------------*/
     /*------------------
-            Type Writer
-        ------------------*/
+    Type Writer
+    ------------------*/
 
     /*-------------------------------
             Navbar Fix
