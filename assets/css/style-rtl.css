@@ -377,21 +377,20 @@
   direction: rtl;
 }
 
-
-.process-wrap .process-headline{
+.process-wrap .process-headline {
   text-align: right;
   direction: rtl;
 }
 
-img{
+img {
   object-fit: contain;
 }
 
-.theme-recent-post-wrap li.theme-recent-post-item{
+.theme-recent-post-wrap li.theme-recent-post-item {
   flex-direction: row-reverse;
 }
 
-.theme-recent-post-wrap li.theme-recent-post-item .thumb{
+.theme-recent-post-wrap li.theme-recent-post-item .thumb {
   margin-left: 15px;
   margin-right: 0px;
 }

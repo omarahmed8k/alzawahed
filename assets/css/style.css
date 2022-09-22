@@ -209,7 +209,6 @@ code {
   height: 50%;
   background: #23702a;
   animation-name: LoaderBefore;
-  animation-delay: 0.5s;
   animation-duration: 2s;
   transition: all 0.3s ease-in-out;
   opacity: 0;
@@ -224,7 +223,6 @@ code {
   height: 50%;
   background: #eee;
   animation-name: LoaderAfter;
-  animation-delay: 0.5s;
   animation-duration: 2s;
   transition: all 0.3s ease-in-out;
   opacity: 0;
@@ -10235,6 +10233,8 @@ p.why-para {
   background-image: url("../img/section-img/quote/quote.png");
   padding: 0 0 113px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .getquote-area {
