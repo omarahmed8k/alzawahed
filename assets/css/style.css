@@ -4804,7 +4804,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 }
 .intro-icon-box-3 .content .count-value {
   font-family: var(--paragraph-font);
-  font-size: 24px;
+  font-size: 22px;
   color: var(--main-color-one);
   font-weight: 600;
   margin-top: 35px;
@@ -16481,4 +16481,28 @@ ul.blocks-gallery-grid li:before {
   margin: auto;
   display: block;
   margin-top: 45px;
+}
+
+.gallary .gallary-area {
+  background-color: #fff !important;
+}
+
+
+.gallary .gallary-area .theme-heading-title .title{
+  color: var(--heading-color);
+}
+
+.single-team-inner h4,.single-team-inner p{
+  text-align: center !important;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallary .navbar-area {
+  background-color: #03051999 !important;
 }
