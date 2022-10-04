@@ -394,3 +394,44 @@ img {
   margin-left: 15px;
   margin-right: 0px;
 }
+
+.navbar-area.navigation-style-01
+  .custom-container
+  .navbar-collapse
+  .navbar-nav
+  li.menu-item-has-children:before {
+  color: #fff;
+}
+
+.navbar-area.navigation-style-01
+  .custom-container
+  .navbar-collapse
+  .navbar-nav
+  li.menu-item-has-children
+  .sub-menu
+  li
+  a {
+  text-align: right;
+  direction: rtl;
+  color: #323232 !important;
+}
+.navbar-area.navigation-style-01
+  .custom-container
+  .navbar-collapse
+  .navbar-nav
+  li.menu-item-has-children
+  .sub-menu
+  li
+  a:hover {
+  color: #ffffff !important;
+}
+
+.navbar-area
+  .custom-container
+  .navbar-collapse
+  .navbar-nav
+  li.menu-item-has-children
+  .sub-menu
+  li {
+  margin: 0;
+}
