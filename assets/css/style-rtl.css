@@ -392,10 +392,7 @@
   right: -25px;
 }
 
-[dir="rtl"] .case-single-wrap .case-title,
-[dir="rtl"]
-  .blog-single-content-wrap
-  p:not(.has-large-font-size, .wp-block-cover-text) {
+[dir="rtl"] .case-single-wrap .case-title {
   text-align: right;
   direction: rtl;
 }
