@@ -1,13 +1,14 @@
 import translations from "./translations.js";
 
-const languageSelector = document.querySelector("select");
+const languageSelector = document.querySelector(".language-selector");
 languageSelector.addEventListener("change", (event) => {
   setLanguage(event.target.value);
   localStorage.setItem("lang", event.target.value);
+  window.location.reload();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const language = localStorage.getItem("lang") || "en";
+  const language = localStorage.getItem("lang") || "ar";
   setLanguage(language);
 });
 

@@ -705,12 +705,32 @@
       bodyOvrelay.addClass("active");
     });
 
-    try {
-      new Typed(".typewriter-ar", {
+    const lang = localStorage.getItem("lang");
+    if (lang === "ar") {
+      new Typed(".typewriter", {
         strings: [
           "الزواهد لخدمات الحراسات الأمنية",
           "حلول امن الشركات و الفعاليات!",
           "حلول امن مواقع البناء!",
+        ],
+        stringsElement: null,
+        rtl: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        startDelay: 2000,
+        backDelay: 2000,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: true,
+        cursorChar: "|",
+        autoInsertCss: true,
+      });
+    } else if (lang === "en") {
+      new Typed(".typewriter", {
+        strings: [
+          "Zawahed for Security Guard Services",
+          "Security solutions for companies and events!",
+          "Security solutions for construction sites!",
         ],
         stringsElement: null,
         typeSpeed: 100,
@@ -723,8 +743,6 @@
         cursorChar: "|",
         autoInsertCss: true,
       });
-    } catch (error) {
-      console.log(error);
     }
   });
 

@@ -47,6 +47,7 @@ html {
   -ms-text-size-adjust: 100%;
   overflow-x: hidden;
   font-family: var(--heading-font);
+  scroll-behavior: smooth;
 }
 
 * {
@@ -1336,8 +1337,18 @@ ul {
   position: relative;
 }
 
+.bullet {
+  margin-right: 15px !important;
+  margin-left: 15px !important;
+  display: inline-block;
+}
+
 .bullet.bullet-2 {
   margin-right: 15px;
+}
+
+.history-area .theme-heading-title .subtitle span {
+  color: #fff !important;
 }
 
 .values-wrapper {
@@ -2447,7 +2458,7 @@ span.style-animate-dot.dot-zero {
 }
 
 .service-single-item-2 .details h4 {
-  font-size: 22px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 0;
@@ -3977,6 +3988,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
 
 .single-input-inner {
   margin-bottom: 30px;
+  position: relative;
 }
 .single-input-inner input {
   width: 100%;
@@ -3989,6 +4001,16 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   -webkit-transition: 0.4s;
   transition: 0.4s;
   font-size: 15px;
+}
+.single-input-inner label{
+  position: absolute;
+  top: -10px;
+  background-color: #fff;
+  left: 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #999;
 }
 .single-input-inner input::-webkit-input-placeholder {
   color: #a1a1a1;
@@ -5816,11 +5838,11 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   text-transform: uppercase;
 }
 .theme-heading-title .title span {
-  color: var(--main-color-one);
+  color: var(--heading-color);
   position: relative;
   font-family: var(--heading-font);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 50px;
 }
 .theme-heading-title .subtitle {
@@ -6709,7 +6731,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   transition: 0.3s;
 }
 .service-single-item-2 .details h4 {
-  font-size: 22px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 0;
@@ -14314,7 +14336,7 @@ nav.navbar.navbar-area.navbar-expand-lg.navigation-style-01.menu-02 {
 
 .footer-area {
   width: 100%;
-  height: 500px;
+  height: 550px;
   position: relative;
   background-color: var(--heading-color);
 }
@@ -16514,10 +16536,99 @@ ul.blocks-gallery-grid li:before {
   border-radius: 10px;
 }
 
-.company .process-wrap .process-headline{
+.company .process-wrap .process-headline {
   text-align: center;
   margin-bottom: 20px;
 }
-  .company .intro-icon-box-4 .content p,.company .intro-icon-box-4 .content .title, .company .intro-icon-box-4 .content .count-value{
-    text-align: center;
-  }
+.company .intro-icon-box-4 .content p,
+.company .intro-icon-box-4 .content .title,
+.company .intro-icon-box-4 .content .count-value {
+  text-align: center;
+}
+
+.typed-cursor {
+  font-size: 95px;
+  background: unset;
+  color: #fff;
+}
+
+.language-selector {
+  position: fixed;
+  top: 130px;
+  left: 0px;
+  background: var(--main-color-one);
+  color: #fff;
+  border: unset;
+  padding: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-align: center;
+}
+
+.gallary-area .theme-heading-title .title {
+  color: #fff;
+}
+
+.about .navbar-area {
+  background-color: #03051999 !important;
+}
+
+.contact .navbar-area {
+  background-color: #03051999 !important;
+}
+
+.navbar-area.navigation-style-01
+  .custom-container
+  .navbar-collapse
+  .navbar-nav
+  li.menu-item-has-children:before {
+  color: #fff;
+}
+
+.navbar-area.navigation-style-01
+  .custom-container
+  .navbar-collapse
+  .navbar-nav
+  li.menu-item-has-children
+  .sub-menu
+  li
+  a {
+  text-align: end;
+  direction: rtl;
+  color: #323232 !important;
+}
+
+.navbar-area.navigation-style-01
+  .custom-container
+  .navbar-collapse
+  .navbar-nav
+  li.menu-item-has-children
+  .sub-menu
+  li
+  a:hover {
+  color: #ffffff !important;
+}
+
+.gallary-area {
+  background: var(--heading-color) !important;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.projects-img {
+  background-image: url(../../assets/img/projects/project-en.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+}
+
+.alzawahed-numbers {
+  background-image: url(../../assets/img/section-img/about/alzawahed-numbers-en.svg);  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 450px;
+  width: 100%;
+}
