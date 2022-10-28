@@ -143,11 +143,22 @@
 
 [dir="rtl"] .quote-message {
   flex-direction: row;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  [dir="rtl"] .service-single-item-2 .details h4 {
+    margin-top: -235px;
+    left: -50px;
+  }
 }
 
 [dir="rtl"] .quote-message p {
   text-align: right;
   line-height: 1.5;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 [dir="rtl"] .single-core-value {
@@ -196,6 +207,15 @@
   margin-right: unset;
   margin-left: 30px;
   text-align: right;
+}
+
+@media (max-width: 576px) {
+  [dir="rtl"] .awards-box {
+    width: 50%;
+    margin-right: unset;
+    margin-left: 0px;
+    text-align: center;
+  }
 }
 
 [dir="rtl"] .media.contact-info-box.icon-box-item {
@@ -451,7 +471,7 @@
 }
 
 [dir="rtl"] .alzawahed-news {
-  background-image: url(../../assets/img/section-img/case/news.svg);  
+  background-image: url(../../assets/img/section-img/case/news.svg);
 }
 
 [dir="rtl"]

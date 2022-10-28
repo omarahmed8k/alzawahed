@@ -4002,7 +4002,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   transition: 0.4s;
   font-size: 15px;
 }
-.single-input-inner label{
+.single-input-inner label {
   position: absolute;
   top: -10px;
   background-color: #fff;
@@ -16627,7 +16627,7 @@ ul.blocks-gallery-grid li:before {
 }
 
 .alzawahed-numbers {
-  background-image: url(../../assets/img/section-img/about/alzawahed-numbers-en.svg);  
+  background-image: url(../../assets/img/section-img/about/alzawahed-numbers-en.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -16636,10 +16636,21 @@ ul.blocks-gallery-grid li:before {
 }
 
 .alzawahed-news {
-  background-image: url(../../assets/img/section-img/case/news-en.svg);  
+  background-image: url(../../assets/img/section-img/case/news-en.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 300px;
   width: 100%;
+}
+
+@media (max-width: 576px) {
+  .alzawahed-news,
+  .projects-img,
+  .alzawahed-numbers {
+    height: 150px;
+  }
+  .projects-img{
+    height: 250px;
+  }
 }
