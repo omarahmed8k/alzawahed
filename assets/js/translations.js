@@ -8,6 +8,7 @@ const translations = {
     alzawahed: "AlZawahed",
     home: "Home",
     about: "About",
+    news: "News",
     about1: "Information",
     about2: "CEO's Message",
     about3: "Mission & Vision",
@@ -204,6 +205,24 @@ const translations = {
     blog7: "October 19, 2021",
     blog8:
       "Signing a joint cooperation agreement in the field of risk management between Zawahid and NSSG",
+
+    news1:
+      "Zawahid Agreement and NSSG joint venture in the risk management industry.",
+    news2:
+      "Today, 'Al-Zawahid Security Services and Guards' announced the establishment of a permanent joint venture with 'NSSG'. The objective of the project is to become the best choice for the Saudi business market in terms of risk management and crisis response support.",
+    news3:
+      "While this joint venture will expand the Zawahid services portfolio - bringing years of experience in providing risk management solutions - it will also allow NSSG to enter the vibrant local market with the requisite confidence provided by an in-depth knowledge of Saudi culture. Furthermore, this will encourage foreign entities operating in the Kingdom to continue investing safely, while providing the necessary tools for Saudi companies to operate with confidence while doing business globally.",
+    news4: "Functions of work",
+    news5:
+      "It was agreed to provide the company with 1000 trained and qualified employees to work in the field of security, guarding, training, insurance and insurance, and 200 trained and qualified cars to work in the field of security, guarding, training, insurance and insurance, and 50 integrated security systems of surveillance cameras, monitors and modern alarms",
+    news6: "latest news",
+    news7: "October 19, 2021",
+    news8: "Securing the Zahids, the activities of the fifth session of the World Conference",
+    news9: "October 19, 2021",
+    news10: "Honoring the Ministry of Education for Al-Zawahid Company for their wonderful efforts",
+    news11: "November 19, 2021",
+    news12:
+      "Signing a joint cooperation agreement in the field of risk management between Zawahid and NSSG",
     footer1:
       "A national institution that aims to create an effective nucleus in the business sector in the Kingdom of Saudi Arabia.",
     footer2: "Quick access",
@@ -235,6 +254,7 @@ const translations = {
     services: "خدماتنا",
     profile: "ملف الشركة",
     partners: "شركائنا",
+    news: "الاخبار",
     media: "الوسائط",
     companies: "شركاتنا",
     companies1: "عملائنا و شركاء النجاح",
@@ -426,6 +446,22 @@ const translations = {
     blog6: "تكريم وزارة التعليم لشركة الزواهد عن مجهوداتها الرائعة",
     blog7: "١٩ اكتوبر, ٢٠٢١",
     blog8:
+      "توقيع اتّفاقيّة تعاون مُشترك في مجال إدارة المخاطر بين الزواهد و NSSG",
+    news1: "اتفاقية الزواهد و ان اس اس جي مشروع مشترك في صناعة إدارة المخاطر.",
+    news2:
+      "أعلنت اليوم شركة 'الزواهد للخدمات والحراسات الأمنية' عن تأسيس مشروع مشترك دائم مع شركة 'ان اس اس جي'. الهدف من المشروع هو أن يصبح الخيار الأفضل لسوق الأعمال السعودي فيما يتعلق بإدارة المخاطر ودعم الاستجابة للأزمات.",
+    news3:
+      "في حين أن هذا المشروع المشترك سوف يوسع محفظة خدمات الزواهد - مما يجلب سنوات من الخبرة في توفير حلول إدارة المخاطر - فإنه سيسمح أيضًا لـ 'ان اس اس جي' بدخول السوق المحلي النابض بالحياة مع الثقة المطلوبة التي توفرها المعرفة المتعمقة للثقافة السعودية . علاوة على ذلك ، سيشجع هذا الكيانات الأجنبية العاملة في المملكة على مواصلة الاستثمار بأمان ، مع توفير الأدوات اللازمة للشركات السعودية للعمل بثقة أثناء ممارسة الأعمال التجارية على مستوى العالم.",
+    news4: "توابع العمل",
+    news5:
+      "تم الاتفاق علي امداد الشركة ب ١٠٠٠ موظف مدرب ومؤهل للعمل في مجال الأمن والحراسة والتدريب والتأمين والتأمين و ٢٠٠ سيارة مدربة ومؤهلة للعمل في مجال الأمن والحراسة والتدريب والتأمين والتأمين و ٥٠ نظام امني متكامل من كاميرات مراقبة و شاشات و اجهزة انذار حديثة",
+    news6: "اخر الاخبار",
+    news7: "١٩ اكتوبر, ٢٠٢١",
+    news8: "تأمين الزواهد لفعاليات الدورة الخامسة للمؤتمر العالمي",
+    news9: "١٩ اكتوبر, ٢٠٢١",
+    news10: "تكريم وزارة التعليم لشركة الزواهد عن مجهوداتها الرائعة",
+    news11: "١٩ اكتوبر, ٢٠٢١",
+    news12:
       "توقيع اتّفاقيّة تعاون مُشترك في مجال إدارة المخاطر بين الزواهد و NSSG",
     footer1:
       "مؤسسة وطنية تهدف إلى تكوين نواة فعالة في قطاع الأعمال في المملكة العربية السعودية.",

@@ -16634,3 +16634,12 @@ ul.blocks-gallery-grid li:before {
   height: 450px;
   width: 100%;
 }
+
+.alzawahed-news {
+  background-image: url(../../assets/img/section-img/case/news-en.svg);  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}

@@ -449,3 +449,13 @@
 [dir="rtl"] .alzawahed-numbers {
   background-image: url(../../assets/img/section-img/about/alzawahed-numbers.svg);
 }
+
+[dir="rtl"] .alzawahed-news {
+  background-image: url(../../assets/img/section-img/case/news.svg);  
+}
+
+[dir="rtl"]
+  .blog-single-content-wrap
+  p:not(.has-large-font-size, .wp-block-cover-text) {
+  text-align: right;
+}
