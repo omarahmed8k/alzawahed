@@ -16660,4 +16660,20 @@ ul.blocks-gallery-grid li:before {
   .loader {
     display: none !important;
   }
+  .history-slider-one .thumb .history-bg{
+    height: 400px;
+  
 }
+.animate-image-inner img{
+  width: 100%;
+}
+}
+    @media (max-width: 767px) {
+      .team-grid{
+        justify-content: center;
+      }
+
+      .video-area{
+        height: 1250px;
+      }
+    }
