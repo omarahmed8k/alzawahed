@@ -16650,11 +16650,10 @@ ul.blocks-gallery-grid li:before {
   .alzawahed-numbers {
     height: 150px;
   }
-  .projects-img{
+  .projects-img {
     height: 250px;
   }
-.loader {
-  display: none;
-}
-}
+  .loader {
+    display: none !important;
+  }
 }
