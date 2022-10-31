@@ -16653,4 +16653,8 @@ ul.blocks-gallery-grid li:before {
   .projects-img{
     height: 250px;
   }
+.loader {
+  display: none;
+}
+}
 }
