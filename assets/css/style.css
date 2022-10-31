@@ -16653,6 +16653,10 @@ ul.blocks-gallery-grid li:before {
   .projects-img {
     height: 250px;
   }
+
+}
+
+@media (max-width: 992px) {
   .loader {
     display: none !important;
   }
