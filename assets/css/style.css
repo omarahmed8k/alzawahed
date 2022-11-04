@@ -16728,3 +16728,12 @@ ul.blocks-gallery-grid li:before {
 .single-accordion-inner .card-body span {
   line-height: 2;
 }
+
+@media (max-width:992px) {
+  .history-slider-one .history-details{
+    padding: 15px;
+  }
+  .column-reverse{
+    flex-direction: column-reverse;
+  }
+}
