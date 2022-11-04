@@ -425,6 +425,9 @@
 [dir="rtl"] img {
   object-fit: contain;
 }
+[dir="rtl"] .single-icon-box-01 {
+  height: 265px;
+}
 
 [dir="rtl"] .theme-recent-post-wrap li.theme-recent-post-item {
   flex-direction: row;
@@ -480,6 +483,22 @@
   text-align: right;
 }
 
+[dir="rtl"] .vision2030 h2,
+[dir="rtl"] .vision2030 p {
+  text-align: right;
+}
+[dir="rtl"] .about-text .about-text-left .about-list ul li::before {
+  left: unset;
+  right: 4px;
+}
+[dir="rtl"] .about-text .about-text-left .about-list ul li {
+  padding-left: unset;
+  padding-right: 25px;
+}
+[dir="rtl"] .about-text .about-text-left .about-list ul li::after {
+  left: unset;
+  right: 0px;
+}
 @media (max-width: 992px) {
   [dir="rtl"]
     .navbar-area.navigation-style-01

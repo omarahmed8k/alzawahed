@@ -4503,6 +4503,7 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
   position: relative;
   z-index: 0;
   overflow: hidden;
+  height: 300px;
 }
 .single-icon-box-01:hover {
   background-color: var(--main-color-one);
@@ -5502,6 +5503,9 @@ blockquote:not(.has-light-gray-color):not(.has-very-dark-gray-color):not(.is-sty
     padding-left: 0;
     padding-top: 20px;
   }
+.single-icon-box-01 {
+  height: auto;
+}
 }
 .subscribe-form .form--control {
   border-radius: 999px;
@@ -7995,7 +7999,7 @@ li.mail-footer a {
   margin-bottom: 30px;
 }
 .about-text .about-text-left .about-list {
-  padding-top: 20px;
+  padding: 0;
 }
 .about-text .about-text-left .about-list ul {
   padding: 0;
@@ -16653,27 +16657,70 @@ ul.blocks-gallery-grid li:before {
   .projects-img {
     height: 250px;
   }
-
 }
 
 @media (max-width: 992px) {
   .loader {
     display: none !important;
   }
-  .history-slider-one .thumb .history-bg{
+  .history-slider-one .thumb .history-bg {
     height: 400px;
-  
+  }
+  .animate-image-inner img {
+    width: 100%;
+  }
 }
-.animate-image-inner img{
-  width: 100%;
-}
-}
-    @media (max-width: 767px) {
-      .team-grid{
-        justify-content: center;
-      }
+@media (max-width: 767px) {
+  .team-grid {
+    justify-content: center;
+  }
 
-      .video-area{
-        height: 1250px;
-      }
-    }
+  .video-area {
+    height: 1250px;
+  }
+}
+
+.about-text .about-text-left .about-list ul li::after {
+  position: absolute;
+  left: 0;
+  height: 13px;
+  width: 13px;
+  content: "";
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid var(--heading-color);
+  outline: 1px solid var(--heading-color);
+  outline-offset: 3px;
+}
+
+.about-text .about-text-left .about-list ul li::before {
+  position: absolute;
+  left: 4.5px;
+  height: 5px;
+  width: 5px;
+  background-color: var(--main-color-one);
+  content: "";
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about-text .about-text-left .about-list ul li {
+  list-style: none;
+  padding-left: 25px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.about-text .about-text-left .about-list ul li p {
+  margin: 0;
+}
+
+.about-text img{
+  border-radius: 10px;
+}
