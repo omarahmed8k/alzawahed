@@ -278,6 +278,24 @@ const translations = {
     visionTitle: "AlZawahed keeps pace with the Kingdom’s Vision 2030",
     visionText:
       "Proceeding from the role of national AlZawahed in the civil security services sector, and in order to enhance its leadership position, AlZawahed has accompanied the Kingdom with confident development steps in the National Transformation Program 2030, and put its internal program in a comprehensive modernization and strategic expansion and outlined its future goals to keep pace with the Kingdom’s vision 2030 and achieve its aspirations at all levels",
+    faqTitle: "Our responsibilities",
+    faqText: "Our responsibility to our customers and society",
+    faqCard1Title: "Quality Management",
+    faqCard1Text1:
+      "Ensure the health, safety, security and well-being of all its employees during work.",
+    faqCard1Text2:
+      "Maintain clear procedures for the action to be taken in the event of an emergency.",
+    faqCard1Text3:
+      "Providing appropriate training for all AlZawahed employees and employees for the task required of them.",
+    faqCard1Text4:
+      "Compliance with safety codes of practice, rules and regulations in the Kingdom of Saudi Arabia and other requirements.",
+    faqCard1Text5:
+      "Ensure that visitors and the general public who may be affected by the activities of AlZawahed Services, are not exposed to risks to their health and safety.",
+    faqCard1Text6:
+      "Commit to a proactive approach to preventing accidents in order to achieve continuous improvement in health and safety performance.",
+    faqCard2Title: "Health and safety",
+    faqCard2Text1:
+      "AlZawahed Company is committed to providing and maintaining a healthy and safe work environment for all its employees and anyone else who may beaffected by its activities. The health and safety policy applies to all buildings and activities",
     footer1:
       "A national institution that aims to create an effective nucleus in the business sector in the Kingdom of Saudi Arabia.",
     footer2: "Quick access",
@@ -566,6 +584,23 @@ const translations = {
     visionTitle: "الزواهد تواكب رؤية المملكة 2030",
     visionText:
       "انطلاقاً من دور الزواهد الوطني في قطاع خدمات الأمن المدني، وتعزيزاً لمكانتها الريادية، فقد رافقت الزواهد بخطى تنموية واثقة مسيرة المملكة في برنامج التحول الوطني 2030، ووضعت برنامجها الداخلي في تحديث شامل وتوسع استراتيجي ورسمت أهدافها المستقبلية لتواكب رؤية المملكة 2030 وتحقق تطلعاتها على كافة المستويات",
+    faqTitle: "مسؤولياتنا",
+    faqText: "مسؤوليتنا تجاه عملائنا والمجتمع",
+    faqCard1Title: "إدارة الجودة",
+    faqCard1Text1: "ضمان صحة وسلامة وأمن ورفاهية جميع موظفيها أثناء العمل",
+    faqCard1Text2:
+      "الاحتفاظ بإجراءات واضحة للإجراء الذي يتعين اتخاذه في حالة الطوارئ",
+    faqCard1Text3:
+      "توفير التدريب المناسب لجميع موظفي الزواهد والموظفين للمهمة المطلوبة منهم",
+    faqCard1Text4:
+      "الامتثال لقواعد الممارسات والقواعد واللوائح الخاصة بالسلامة في المملكة العربية السعودية والمتطلبات الأخرى",
+    faqCard1Text5:
+      "الالتزام بنهج استباقي لمنع حوادث الحوادث من أجل تحقيق التحسين المستمر في أداء الصحة والسلامة",
+    faqCard1Text6:
+      "تأكد من أن الزوار وعامة الناس الذين قد يتأثرون بأنشطة خدمات الزواهد، لا يتعرضون للمخاطر على صحتهم وسلامتهم",
+    faqCard2Title: "الصحة والأمان",
+    faqCard2Text1:
+      "تلتزم شركة الزواهد بتوفير بيئة عمل صحية وآمنة والمحافظة عليها لجميع موظفيها وأي شخص آخر قد يتأثر بأنشطتها كما تنطبق سياسة الصحة والسلامة على جميع المباني والأنشطة",
     footer1:
       "مؤسسة وطنية تهدف إلى تكوين نواة فعالة في قطاع الأعمال في المملكة العربية السعودية.",
     footer2: "الوصول السريع",

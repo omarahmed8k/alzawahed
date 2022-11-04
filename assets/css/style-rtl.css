@@ -499,6 +499,27 @@
   left: unset;
   right: 0px;
 }
+
+[dir="rtl"] .single-accordion-inner .card-header {
+  padding: 30px 30px 30px 65px;
+}
+
+[dir="rtl"] .single-accordion-inner .card-header a {
+  text-align: right;
+}
+[dir="rtl"] .single-accordion-inner .card-header a.collapsed:before {
+  right: unset;
+  left: -30px;
+}
+[dir="rtl"] .single-accordion-inner .card-header a::after {
+  right: unset;
+  left: -30px;
+}
+
+[dir="rtl"] .single-accordion-inner .card-body {
+  text-align: right;
+}
+
 @media (max-width: 992px) {
   [dir="rtl"]
     .navbar-area.navigation-style-01

@@ -16724,3 +16724,7 @@ ul.blocks-gallery-grid li:before {
 .about-text img{
   border-radius: 10px;
 }
+
+.single-accordion-inner .card-body span {
+  line-height: 2;
+}
